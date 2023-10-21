@@ -1,0 +1,383 @@
+:root{
+    --background-cinza: rgb(43, 43, 53);
+    --background: rgb(5, 5, 20);
+    --cinza: #ececec;
+    --azul-btn:rgb(45, 96, 185); 
+    --azul-violeta:rgb(90, 63, 225);
+    --cinza-escuro:#cdcdcd;
+}
+
+
+@media screen and (min-width:570px){
+    .container-wrapper{
+        height: 60rem;
+    }
+    .header{
+        padding: .8rem 2rem;
+    }
+    .header-btn{
+        padding: 1.5rem 2rem;
+        font-size: 1.5rem;
+     
+    }
+
+    .btn1{
+        margin-right: 4rem;
+    }
+
+    .btn2{
+       right: 4rem;
+    }
+
+    .header img{
+        width: 10rem;   
+   }
+
+   .container-wrapper img{
+      height: 100%; 
+   }
+    
+   /* container about*/
+   .container-wrapper{
+     position: relative;
+   }
+
+   .container-about{
+      position: absolute;
+      align-items: flex-start;
+      top: 10rem;
+      left: 7rem;
+
+   }
+
+   .container-about img{
+     width: 20rem;
+     margin-bottom: 1rem;
+   }
+
+   .content-about h2{
+      font-size: 4.5rem;
+      letter-spacing: .5px;
+      flex-wrap: wrap;
+      width: 65rem;
+      text-align: left;
+      font-weight: bold;
+   }
+    
+   .content-about button{
+      margin-top: 1rem;
+      font-size: 2rem;
+      padding: 2rem;
+   }
+
+   .header-link{
+     font-size: 1.8rem;
+     margin-top: 1.6rem;
+   } 
+
+   .arrow-down{
+      margin-top: 5px;
+   }
+
+   
+   /* TITLE E SUBTITLE */
+   .title, .subtitle{
+       text-align: center;
+    }
+    .title{
+        font-size: 4rem;
+        margin-top: 4rem;  
+    }
+    
+    .subtitle{
+        font-size: 2rem;
+    }
+
+    
+    /* PRICES AND PLANS STYLES */
+    .container-plan-wrapper{
+        margin-top: 10rem;
+    }
+
+    .container-plan-title img{
+        width: 10rem;
+    }
+
+    .container-plan-title{
+        justify-content:right;
+       
+    }
+    
+   
+
+    .plan1-div{
+        width: 420px;
+    }
+    .plan2-div{
+        width: 420px;
+        background-color: var(--background-cinza);
+    }
+
+    .plan1-div button,.plan2-div button{
+        padding: 1.2rem 5rem;  
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+       
+    } 
+
+    .plan1-div span, .plan2-div span{
+        font-size: 1.6rem;
+    }
+
+    .free-combo{
+       
+        padding: 6px 20px;
+        font-size: 1.1rem;
+        border-radius: 20px;
+    }
+
+    .plan-collum button{
+        padding: 1.2rem 2rem;   
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .plan-collum .collum-title{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+     }
+
+    .container-plan-1,
+    .container-plan-2,
+    .container-plan-3,
+    .container-plan-4,
+    .container-plan-5,
+    .container-plan-6,
+    .container-plan-7,
+    .container-plan-8{
+        display: flex;
+        flex-direction: row;
+      
+     
+   }
+
+   
+
+   .plan-title{
+        text-align: start;
+        font-size: 1.6rem;
+        width: 690px;
+         
+    
+   }
+
+   .plan-title:nth-of-type(1){
+      padding: 2.5rem;
+   }
+
+   .plan-row{
+    width: 100%;
+   }
+ 
+  
+   .plan-collum{
+     padding: 0;
+
+   }
+
+   .icon-plan-container{
+     background-color: var(--background-cinza);
+   }
+   
+
+    .line-icon,
+    .ok-icon{
+       font-size: 35px;
+    }
+
+    .number{
+        font-size: 1.6rem;
+    }
+
+    .warning{
+        text-align: left;
+        margin-left: 10rem;
+
+       
+    }
+
+
+    /* SEÇÃO DICAS */
+    .wrapper-all{
+        flex-direction: row-reverse; 
+        gap: 15rem;
+       
+               
+    }  
+    
+    .wrapper-img{
+         max-width: 70rem;
+         height: 50rem;
+     }
+
+
+
+     .wrapper-content{
+        align-items: initial;
+        max-width: 50rem;
+    
+    
+     }
+    
+    .wrapper-content h2{
+      font-size:  4rem;
+      letter-spacing: .1rem;
+    
+    }
+    .wrapper-content div{
+        font-size: 1.8rem;
+        display: block;
+        text-align: left;
+        line-height: 2.5rem;
+        letter-spacing: .1rem;
+        
+     
+    }
+
+    /*Seção de filmes*/
+
+    .gallery-title{
+        margin-top: 15rem;
+    }
+
+    .gallery-title h2{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        width: initial;
+       
+    }
+    
+    .gallery-title div{
+       font-size: 2rem;
+       width: initial;
+       color: var(--cinza-escuro);
+    }
+
+    .wrapper-row{
+        grid-template-columns: repeat(3, 44rem);
+        gap: 1rem;
+     
+     }
+     
+     .article-img{
+         max-width: 100%;
+         height: 25rem;
+      
+     }
+     
+     .especial-article{
+        margin-left: initial;
+     }
+    
+     
+     /*LEAO*/
+     .wrapper-container-leao{
+        margin-top: 20rem;
+     }
+     .wrapper-leao-content{
+        flex-direction: row;
+        position: relative;
+       
+    }
+    
+    .wrapper-leao{
+       width: 200rem;
+       height: 60rem;
+    }
+
+    .wrapper-conteudo {
+        position: absolute;
+        right: 3.5rem;
+        max-width: 70rem;
+    }
+
+    .wrapper-conteudo h2{
+        text-align: initial;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        
+    }
+    .wrapper-conteudo div{
+        text-align: initial;
+        font-size: 1.6rem;
+        
+    }
+   
+    /*PRODUTO ABOUT*/
+    .wrapper-produto{
+        grid-template-columns: repeat(4,30rem);
+
+     }
+
+     .produto{
+        width: 30rem;
+         
+     }
+    
+     .produto-about h2{
+        font-size: 2.5rem;
+     }
+    
+    .produto-about div{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    
+    .produto-title{
+        font-size: 3rem;
+        margin-top: 17rem;
+    }
+
+    /* COLLAPSE */
+
+    .myCardBody ul li,.div{
+        margin-left: 2rem;
+    
+    }
+
+    .colaps-title{
+        max-width: initial;
+        font-size: 2rem;
+    }
+    
+    .wrapper-dropdown-group h2{
+    
+        margin-top: 15rem;
+        margin-bottom: 2rem;
+        font-size: 3.6rem;
+      
+    }
+  
+
+    /*FOOTER*/
+    .global-all{
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .midlle-all{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    .footer{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .last{
+        width: 90rem;
+    }
+}
