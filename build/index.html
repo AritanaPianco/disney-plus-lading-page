@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./styles/output.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <title>Disney plus</title>
+</head>
+<body class="bg-background">
+      
+   <main class="w-full flex flex-col items-center">
+        <div class="w-full flex flex-col items-center">
+
+            <!--Desktop-->
+            <div class="w-full max-w-full h-[600px] hidden md:hidden lg:flex">
+               <img class="w-full h-full object-cover" src="./introAssets/background original logo.jpg">
+                
+                <div class="w-full flex flex-col items-start absolute py-2 px-4 left-8 top-36 gap-5 max-w-[700px]">
+                    <img class="w-40" src="./introAssets/logo disney plus.svg" alt="logo">                    
+                        <div class="w-full flex flex-col items-start gap-2 text-colorWhite">
+                            <h2 class="text-start text-[40px] font-bold max-w-xl">As melhores histórias em um só lugar</h2>
+                            <button class="w-full text-xl py-4 px-5 bg-azulVioleta rounded-sm uppercase whitespace-nowrap mt-2">Aproveite a oferta combo+</button>
+                        </div>
+                        <div class="w-full flex flex-col items-start">
+                            <a href="#" class="text-cinza text-base border-b-2 border-cinza">Assinar somente o Disney+</a>
+                            <i class="ri-arrow-down-s-line text-cinza text-xl mt-3"></i>                
+                        </div>
+                </div>  
+            </div>
+
+
+            <!--tablet-->
+            <div class="w-full max-w-full hidden relative md:flex lg:hidden">
+                <img class="w-full object-cover" src="./introAssets/disneyplusMobileBackground.jpg">
+
+
+                <div class="w-full flex flex-col items-center absolute py-2 px-4 top-[300px] bottom-0 gap-4">
+                    <img class="w-40" src="./introAssets/logo disney plus.svg" alt="logo">                    
+                    <div class="w-full flex flex-col items-center gap-2 text-colorWhite">
+                          <h2 class="text-center text-[25px]">As melhores histórias em um só lugar</h2>
+                          <button class="w-full max-w-lg text-sm py-3 px-4 bg-azulVioleta rounded-sm uppercase whitespace-nowrap">Aproveite a oferta combo+</button>
+                    </div>
+                     <div class="w-full flex flex-col items-center">
+                         <a href="#" class="text-cinza text-sm border-b-2 border-cinza">Assinar somente o Disney+</a>
+                         <i class="ri-arrow-down-s-line text-cinza text-xl"></i>                
+                    </div>
+               </div>
+            </div>
+
+            <!--mobile-->
+            <div class="w-full max-w-full md:hidden lg:hidden relative h-[480px] overflow-hidden">
+                <img class="w-full object-cover" src="./introAssets/disneyPlusMobileMinor.jpg">
+                
+                <div class="w-full flex flex-col items-center absolute bottom-0 py-2 px-4 top-44 gap-4">
+                     <img class="w-[80px]" src="./introAssets/logo disney plus.svg" alt="logo">                    
+                     <div class="w-full flex flex-col items-center gap-2 text-colorWhite">
+                           <h2 class="text-center text-xl">As melhores histórias em um só lugar</h2>
+                           <button class="w-full text-sm py-3 px-4 bg-azulVioleta rounded-sm uppercase whitespace-nowrap">Aproveite a oferta combo+</button>
+                     </div>
+                      <div class="w-full flex flex-col items-center">
+                          <a href="#" class="text-cinza text-sm border-b-2 border-cinza">Assinar somente o Disney+</a>
+                          <i class="ri-arrow-down-s-line text-cinza text-[30px]"></i>                
+                     </div>
+                </div>
+            </div>
+            
+            <header class="w-full flex justify-end py-4 px-7 fixed top-0 opacity-0">
+                <button class="bg-background text-cinza text-xs md:text-base uppercase py-2 px-4 outline
+                   md:py-3 md:px-5 lg:py-3 lg:px-6 outline-cinza outline-1 rounded-sm hover:bg-cinza 
+                 hover:text-background duration-200">Entrar</button>       
+            </header>
+        </div>   
+  
+        
+        <div class="w-full flex flex-col text-colorWhite items-center md:mt-5">
+             <h2 class="text-center text-lg md:text-[25px]">Escolha seu plano</h2>
+             <span class="block text-center text-xs text-cinzaLetra mt-2">Cancele a qualquer momento</span>
+
+                <div class="w-full grid grid-cols-2 mt-10 md:max-w-5xl md:grid-cols-3 md:mt-11">
+                         <div class="flex col-start-1 col-end-3 items-center md:col-start-1 md:col-end-4 md:grid md:grid-cols-3 md:border-b-2 md:border-cinzaEscuro">
+                              <div class="w-full gap-2 h-full flex flex-col items-center py-5 md:py-7 px-4 border-b-2 border-cinzaEscuro md:border-none md:border-t-[.5px] md:border-cinzaEscuro md:col-start-2 md:col-end-3">
+                                 <span class="block text-sm md:text-base">Disney+</span>
+                                 <img class="block w-16 md:w-20" src="./introAssets/logo disney plus.svg" alt="logo">
+                                 <button class="bg-azulBnt md:w-full rounded-sm text-sm md:text-base py-2 px-3">R$ 33,90/MÊS</button>
+                              </div>
+                           
+                               <div class="w-full relative gap-2 h-full flex flex-col items-center py-5 md:py-7 px-4 bg-backgroundCinza border-b-2 border-cinzaEscuro md:border-none md:border-t-[.5px] md:border-cinzaEscuro md:col-start-3 md:col-end-4">
+                                   <span class="block text-sm md:text-base">Combo+</span>
+                                   <img class="block w-16 md:w-20" src="./introAssets/logo disney plus.svg" alt="combo">  
+                                   <button class="bg-azulVioleta md:w-full rounded-sm text-sm md:text-base py-2 px-3">R$ 55,90/MÊS</button> 
+                                   <div class="absolute -top-2 rounded-full font-bold py-1 px-3 bg-cinza text-xs text-background">Mais popular</div>
+                              </div>  
+                         </div> 
+           
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center border-b-[.5px] border-cinzaLetra md:col-start-1 md:col-end-4">
+                              <div class="py-2 md:py-4 px-2 col-start-1 col-end-2 text-cinzaLetra">Preço anual</div>
+                              
+                              <div class="w-full flex col-start-2 col-end-4">
+                                 <div class="w-full flex flex-col py-4 items-center gap-2">
+                                     <div class="text-center text-sm">12 meses pelo preço de 9</div>
+                                     <button class="bg-azulBnt md:max-w-lg rounded-sm text-xs md:text-sm py-2 px-3">R$ 279,90/ANO À VISTA</button>
+                                 </div>
+           
+                                 <div class="w-full flex items-center justify-center md:bg-backgroundCinza">
+                                    <i class="ri-subtract-fill"></i>
+                                </div>
+                              </div> 
+                        </div>
+           
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaLetra md:col-start-1 md:col-end-4">
+                              <div class="text-center px-2 md:text-start text-sm md:text-base max-w-md col-start-1 col-end-2 text-cinzaLetra">Filmes, séries e originais exclusivos da Disney, Pixar, Marvel, Star Wars e National Geographic</div>
+                              
+                              <div class="w-full flex col-start-2 col-end-4">
+                                 <div class="w-full flex items-center justify-center py-4 md:py-7">
+                                   <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                                 </div>
+           
+                                 <div class="w-full flex items-center justify-center py-2 px-1 md:bg-backgroundCinza">
+                                   <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                                </div>
+                              </div> 
+                        </div>
+           
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaEscuro md:col-start-1 md:col-end-4">
+                              <div class="text-center px-2 md:text-start text-sm md:text-base max-w-md col-start-1 col-end-2 text-cinzaLetra">Os melhores torneios e ligas esportivas do mundo ao vivo com a ESPN</div>
+                              
+                              <div class="w-full flex col-start-2 col-end-4">
+                                 <div class="w-full flex items-center justify-center py-4 md:py-7">
+                                    <i class="ri-subtract-fill text-lg"></i>
+                                 </div>
+                                 <div class="w-full flex items-center justify-center py-2 px-1 md:bg-backgroundCinza">
+                                    <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                                 </div>
+                              </div> 
+                        </div>
+           
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaEscuro md:col-start-1 md:col-end-4">
+                              <div class="py-3 md:py-4 px-2 text-center md:text-start text-sm md:text-base max-w-md col-start-1 col-end-2 text-cinzaLetra">Produções locais, programas, séries e filmes premiados exclusivos do Star+</div>
+                              
+                              <div class="w-full flex col-start-2 col-end-4">
+                                 <div class="w-full flex items-center justify-center py-4 md:py-7">
+                                    <i class="ri-subtract-fill text-lg"></i>
+                                 </div>
+                                 <div class="w-full flex items-center justify-center py-2 px-1 md:bg-backgroundCinza">
+                                    <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                                 </div>
+                              </div> 
+                        </div>
+
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaEscuro md:col-start-1 md:col-end-4">
+                              <div class="py-3 px-2 md:py-4 text-center md:text-start text-sm md:text-base max-w-md col-start-1 col-end-2 text-cinzaLetra">Dispositivos para reprodução simultânea</div>
+                             
+                              <div class="w-full flex col-start-2 col-end-4">
+                                 <div class="w-full flex items-center justify-center py-4 md:py-7 text-base">4</div>
+                                 <div class="w-full flex items-center justify-center py-2 px-1 md:bg-backgroundCinza text-base">4+4</div>
+                              </div> 
+                        </div>
+           
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaEscuro md:col-start-1 md:col-end-4">
+                           <div class="py-3 px-2 md:py-4 text-center md:text-start text-sm md:text-base max-w-md col-start-1 col-end-2 text-cinzaLetra">Baixe seus favoritos para assistir sem precisar de internet</div>
+                           
+                           <div class="w-full flex col-start-2 col-end-4">
+                              <div class="w-full flex items-center justify-center py-4 md:py-7">
+                                 <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                              </div>
+                              <div class="w-full flex items-center justify-center py-2 px-1 md:bg-backgroundCinza">
+                                 <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                              </div>
+                           </div> 
+                       </div>
+           
+                        <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaEscuro md:col-start-1 md:col-end-4">
+                           <div class="py-3 px-2 md:py-4 text-center md:text-start text-sm md:text-base max-w-md col-start-1 col-end-2 text-cinzaLetra">Crie perfis personalizados na sua conta</div>
+                           
+                           <div class="w-full flex col-start-2 col-end-4">
+                              <div class="w-full flex items-center justify-center text-base py-4 md:py-7">7</div>
+                              <div class="w-full flex items-center justify-center py-2 px-1 text-base md:bg-backgroundCinza">7+7</div>
+                           </div> 
+                       </div>
+           
+                       <div class="flex flex-col md:flex-row md:grid md:grid-cols-3 col-start-1 col-end-3 items-center gap-2 border-b-[.5px] border-cinzaEscuro md:col-start-1 md:col-end-4">
+                           <div class="py-3 px-2 md:py-4 text-center md:text-start text-sm md:text-base  max-w-md col-start-1 col-end-2 text-cinzaLetra">Proteja sua família com o controle parental</div>
+                           
+                           <div class="w-full flex col-start-2 col-end-4">
+                              <div class="w-full flex items-center justify-center py-4 md:py-7">
+                                 <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                              </div>
+                              <div class="w-full flex items-center justify-center py-2 px-1 md:bg-backgroundCinza">
+                                 <i class="ri-arrow-down-s-line text-lg" style="color: white;"></i>
+                              </div>
+                           </div> 
+                       </div>          
+               </div>
+                             
+            </div> 
+            <i class="text-stat text-xs text-cinzaLetra">
+               *O preço pode variar caso a assinatura seja feita através de outras plataformas. 
+            </i>              
+
+   
+
+   </main>
+    
+    
+
+
+
+
+
+
+</body>
+</html>

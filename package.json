@@ -1,0 +1,23 @@
+{
+  "name": "clone-disney-plus-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./input.css -o ./build/styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AritanaPianco/clone-disney-plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AritanaPianco/clone-disney-plus/issues"
+  },
+  "homepage": "https://github.com/AritanaPianco/clone-disney-plus#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
