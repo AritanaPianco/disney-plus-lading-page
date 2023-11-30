@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.mama{
+    color: rgb(22, 22, 27);
+}

@@ -14,11 +14,13 @@ module.exports = {
        btnBackground: 'rgb(63, 116, 207)',
        btnBackgroundHover: 'rgb(114, 62, 218)',
        colorWhite: 'rgb(255 255 255)',
-       backgroundCinza: 'rgb(43, 43, 53)',
+       backgroundCinza: 'rgb(22, 22, 27)',
        cinzaLetra: '#d4d4d8'
 
     },
-    extend: {},
+    extend: {
+     
+    },
   },
   plugins: [],
 }

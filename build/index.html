@@ -8,6 +8,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <script defer src="main.js"></script>
       <title>Disney plus</title>
 </head>
 <body class="bg-background">
@@ -23,11 +24,11 @@
                     <img class="w-40" src="./introAssets/logo disney plus.svg" alt="logo">                    
                         <div class="w-full flex flex-col items-start gap-2 text-colorWhite">
                             <h2 class="text-start text-[40px] font-bold max-w-xl">As melhores histórias em um só lugar</h2>
-                            <button class="w-full text-xl py-4 px-5 bg-azulVioleta rounded-sm uppercase whitespace-nowrap mt-2">Aproveite a oferta combo+</button>
+                            <button class="w-full text-xl py-4 px-5 bg-azulVioleta rounded-sm uppercase whitespace-nowrap mt-2 hover:bg-btnBackgroundHover duration-200">Aproveite a oferta combo+</button>
                         </div>
                         <div class="w-full flex flex-col items-start">
                             <a href="#" class="text-cinza text-base border-b-2 border-cinza">Assinar somente o Disney+</a>
-                            <i class="ri-arrow-down-s-line text-cinza text-xl mt-3"></i>                
+                            <i class="ri-arrow-down-s-line animate-bounce text-cinza text-[30px] mt-3"></i>                
                         </div>
                 </div>  
             </div>
@@ -42,11 +43,11 @@
                     <img class="w-40" src="./introAssets/logo disney plus.svg" alt="logo">                    
                     <div class="w-full flex flex-col items-center gap-2 text-colorWhite">
                           <h2 class="text-center text-[25px]">As melhores histórias em um só lugar</h2>
-                          <button class="w-full max-w-lg text-sm py-3 px-4 bg-azulVioleta rounded-sm uppercase whitespace-nowrap">Aproveite a oferta combo+</button>
+                          <button class="w-full max-w-lg text-sm py-3 px-4 bg-azulVioleta rounded-sm uppercase whitespace-nowrap hover:bg-btnBackgroundHover duration-200">Aproveite a oferta combo+</button>
                     </div>
                      <div class="w-full flex flex-col items-center">
                          <a href="#" class="text-cinza text-sm border-b-2 border-cinza">Assinar somente o Disney+</a>
-                         <i class="ri-arrow-down-s-line text-cinza text-xl"></i>                
+                         <i class="ri-arrow-down-s-line animate-bounce text-cinza text-xl"></i>                
                     </div>
                </div>
             </div>
@@ -59,16 +60,16 @@
                      <img class="w-[80px]" src="./introAssets/logo disney plus.svg" alt="logo">                    
                      <div class="w-full flex flex-col items-center gap-2 text-colorWhite">
                            <h2 class="text-center text-xl">As melhores histórias em um só lugar</h2>
-                           <button class="w-full text-sm py-3 px-4 bg-azulVioleta rounded-sm uppercase whitespace-nowrap">Aproveite a oferta combo+</button>
+                           <button class="w-full text-sm py-3 px-4 bg-azulVioleta rounded-sm uppercase whitespace-nowrap hover:bg-btnBackgroundHover duration-200">Aproveite a oferta combo+</button>
                      </div>
                       <div class="w-full flex flex-col items-center">
                           <a href="#" class="text-cinza text-sm border-b-2 border-cinza">Assinar somente o Disney+</a>
-                          <i class="ri-arrow-down-s-line text-cinza text-[30px]"></i>                
+                          <i class="ri-arrow-down-s-line animate-bounce text-cinza text-[30px]"></i>                
                      </div>
                 </div>
             </div>
             
-            <header class="w-full flex justify-end py-4 px-7 fixed top-0 opacity-0">
+            <header class="w-full absolute flex justify-end py-4 px-7 top-0">
                 <button class="bg-background text-cinza text-xs md:text-base uppercase py-2 px-4 outline
                    md:py-3 md:px-5 lg:py-3 lg:px-6 outline-cinza outline-1 rounded-sm hover:bg-cinza 
                  hover:text-background duration-200">Entrar</button>       
@@ -76,22 +77,22 @@
         </div>   
   
         
-        <div class="w-full flex flex-col text-colorWhite items-center md:mt-5">
-             <h2 class="text-center text-lg md:text-[25px]">Escolha seu plano</h2>
-             <span class="block text-center text-xs text-cinzaLetra mt-2">Cancele a qualquer momento</span>
+        <div class="w-full flex flex-col text-colorWhite items-center md:mt-28">
+             <h2 class="text-center text-lg md:text-[25px] lg:text-[35px] font-bold">Escolha seu plano</h2>
+             <span class="block text-center text-xs text-cinzaLetra mt-5 md:text-sm">Cancele a qualquer momento</span>
 
                 <div class="w-full grid grid-cols-2 mt-10 md:max-w-5xl md:grid-cols-3 md:mt-11">
                          <div class="flex col-start-1 col-end-3 items-center md:col-start-1 md:col-end-4 md:grid md:grid-cols-3 md:border-b-2 md:border-cinzaEscuro">
                               <div class="w-full gap-2 h-full flex flex-col items-center py-5 md:py-7 px-4 border-b-2 border-cinzaEscuro md:border-none md:border-t-[.5px] md:border-cinzaEscuro md:col-start-2 md:col-end-3">
                                  <span class="block text-sm md:text-base">Disney+</span>
                                  <img class="block w-16 md:w-20" src="./introAssets/logo disney plus.svg" alt="logo">
-                                 <button class="bg-azulBnt md:w-full rounded-sm text-sm md:text-base py-2 px-3">R$ 33,90/MÊS</button>
+                                 <button class="bg-azulBnt md:w-full rounded-sm text-sm md:text-base py-2 px-3 hover:bg-btnBackground duration-200">R$ 33,90/MÊS</button>
                               </div>
                            
                                <div class="w-full relative gap-2 h-full flex flex-col items-center py-5 md:py-7 px-4 bg-backgroundCinza border-b-2 border-cinzaEscuro md:border-none md:border-t-[.5px] md:border-cinzaEscuro md:col-start-3 md:col-end-4">
                                    <span class="block text-sm md:text-base">Combo+</span>
                                    <img class="block w-16 md:w-20" src="./introAssets/logo disney plus.svg" alt="combo">  
-                                   <button class="bg-azulVioleta md:w-full rounded-sm text-sm md:text-base py-2 px-3">R$ 55,90/MÊS</button> 
+                                   <button class="bg-azulVioleta md:w-full rounded-sm text-sm md:text-base py-2 px-3 hover:bg-btnBackgroundHover duration-200">R$ 55,90/MÊS</button> 
                                    <div class="absolute -top-2 rounded-full font-bold py-1 px-3 bg-cinza text-xs text-background">Mais popular</div>
                               </div>  
                          </div> 
@@ -102,7 +103,7 @@
                               <div class="w-full flex col-start-2 col-end-4">
                                  <div class="w-full flex flex-col py-4 items-center gap-2">
                                      <div class="text-center text-sm">12 meses pelo preço de 9</div>
-                                     <button class="bg-azulBnt md:max-w-lg rounded-sm text-xs md:text-sm py-2 px-3">R$ 279,90/ANO À VISTA</button>
+                                     <button class="bg-azulBnt md:max-w-lg rounded-sm text-xs md:text-sm py-2 px-3 hover:bg-btnBackground duration-200">R$ 279,90/ANO À VISTA</button>
                                  </div>
            
                                  <div class="w-full flex items-center justify-center md:bg-backgroundCinza">
@@ -196,21 +197,278 @@
                        </div>          
                </div>
                              
-            </div> 
-            <i class="text-stat text-xs text-cinzaLetra">
-               *O preço pode variar caso a assinatura seja feita através de outras plataformas. 
-            </i>              
+            </div>
 
+            <div class="w-full max-w-5xl mt-3 px-3">
+               <i class="text-start block text-xs text-cinzaLetra">
+                  *O preço pode variar caso a assinatura seja feita através de outras plataformas. 
+               </i>              
+            </div>
+
+             <div class="w-full flex flex-col px-5 md:px-3 gap-5 md:gap-10 md:flex-row-reverse items-center mt-24 md:mt-32 md:max-w-7xl">                 
+                    <div class="w-full outline">
+                        <img class="block" src="./introAssets/intro.png">
+                     </div>
+                     
+                     <div class="w-full flex flex-col gap-2">
+                        <h2 class="text-colorWhite font-bold text-center md:text-start text-lg md:text-3xl">Assista do seu jeito</h2>
+                        
+                        <p class="block text-center text-sm md:text-lg md:text-start text-cinzaLetra">
+                           Aproveite a tela grande da TV ou assista no 
+                           tablet, laptop, celular e outros aparelhos. Nossa seleção
+                           de títulos em 4K não para de crescer. Além disso, para a
+                           felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
+                        </p>
+                     </div>             
+              </div> 
+
+             
+            <div class="w-full flex flex-col items-center mt-24 md:mt-60">
+                 <div class="w-full flex flex-col items-center gap-2 md:gap-4 mb-5">
+                     <h2 class="font-semibold text-center text-lg md:text-5xl tracking-wide text-colorWhite">
+                         Originais Disney+ exclusivos
+                     </h2>
+                     <span class="block font-medium text-center text-cinzaLetra text-xs md:text-lg tracking-wide">
+                         Só no Disney+ você ve os melhores filmes,series,curtas e outros conteudos inéditos.
+                     </span>
+                 </div>
+
+                 <div class="w-full grid grid-cols-2 gap-2 px-3 md:gap-4 md:px-24 items-center md:grid-cols-3">
+                       <img class="block rounded-lg" src="./images/original (1).jpg">   
+                       <img class="block rounded-lg" src="./images/original (2).jpg">   
+                       <img class="block rounded-lg" src="./images/original (3).jpg">   
+                       <img class="block rounded-lg" src="./images/original (4).jpg">   
+                       <img class="block rounded-lg" src="./images/original (5).jpg">   
+                       <img class="block rounded-lg" src="./images/original (6).jpg">   
+                       <img class="block rounded-lg" src="./images/original (7).jpg">   
+                       <img class="block rounded-lg" src="./images/original (8).jpg">   
+                       <img class="block rounded-lg translate-x-16 md:translate-x-0" src="./images/original.jpg">                    
+                 </div> 
+            </div>   
+       
+           <div class="w-full flex flex-col items-center mt-16 md:mt-52">
+                <div class="md:hidden flex flex-col items-center w-full max-w-7xl gap-2 px-3">
+                   <img class="block" src="./introAssets/leaoMobile.png" alt="leaoMobile">
+                   
+                   <div class="w-full flex flex-col gap-2 mt-5">
+                       <h2 class="text-center text-colorWhite font-semibold text-lg md:text-2xl">Baixe filmes e séries</h2>
+                       <span class="block text-center text-cinzaLetra text-sm md:text-base">
+                          Baixe e assista quando e onde quiser. Assim, seus favoritos estão 
+                          sempre com você, até mesmo sem internet
+                      </span>
+                   </div> 
+                </div>
+
+                <div class="hidden md:flex w-full gap-2 px-24 relative">
+                      <img class="block" src="./introAssets/leao.png" alt="leaoDesktop">
+                    
+                      <div class="flex flex-col gap-2 absolute right-48 top-80 max-w-lg">
+                          <h2 class="text-start text-colorWhite font-semibold text-2xl">
+                                Baixe filmes e séries
+                          </h2>
+                          <span class="block text-start text-cinzaLetra text-lg">
+                               Baixe e assista quando e onde quiser. Assim, seus favoritos estão 
+                               sempre com você, até mesmo sem internet
+                          </span>
+                     </div> 
+                </div>
+           </div>
+                
+          <div class="w-full flex flex-col items-center mt-24">
+             
+             <h2 class="text-colorWhite text-center tracking-wide font-semibold text-2xl md:text-3xl">
+               Disponível nos seus dispositivos favoritos
+             </h2> 
+             
+             <div class="w-full max-w-7xl mt-10 grid grid-cols-2 gap-2 md:grid-cols-4">
+
+                    <article class="flex flex-col gap-2 items-center">
+                           <img class="block" src="./introAssets/computador.png">
+                           <div class="flex flex-col items-center gap-2">
+                               <h2 class="text-colorWhite font-semibold text-xl">Computador</h3>
+                               <div class="flex flex-col items-center text-cinzaLetra text-sm">
+                                    <p class="block">Chrome OS</p>    
+                                    <p class="block">MacOS</p>    
+                                    <p class="block">Pc Windows</p>    
+                               </div>
+                           </div>
+                    </article>
+
+                    <article class="flex flex-col gap-2 items-center">
+                           <img class="block" src="./introAssets/tv.png">
+                           <div class="flex flex-col items-center gap-2">
+                               <h2 class="text-colorWhite font-semibold text-xl">TV</h3>
+                               <div class="flex flex-col items-center text-cinzaLetra text-sm">
+                                    <p class="block">Amazon Fire TV</p>    
+                                    <p class="block">Android TV</p>    
+                                    <p class="block">Apple TV</p>    
+                                    <p class="block">Chromecast</p>    
+                                    <p class="block">TVs LG</p>    
+                                    <p class="block">Roku</p>    
+                                    <p class="block">Samsung</p>    
+                               </div>
+                           </div>
+                    </article>
+
+                    <article class="flex flex-col gap-2 items-center">
+                           <img class="block" src="./introAssets/control.png">
+                           <div class="flex flex-col items-center gap-2">
+                               <h2 class="text-colorWhite font-semibold text-xl">Videogames</h3>
+                               <div class="flex flex-col items-center text-cinzaLetra text-sm">
+                                    <p class="block">PS4</p>    
+                                    <p class="block">PS5</p>    
+                                    <p class="block">Xbox one</p>    
+                                    <p class="block">Xbox Series X</p>    
+                                    <p class="block">Xbox Series S</p>      
+                               </div>
+                           </div>
+                    </article>
+
+                    <article class="flex flex-col gap-2 items-center">
+                           <img class="block" src="./introAssets/phone.png">
+                           <div class="flex flex-col items-center gap-2">
+                               <h2 class="text-colorWhite font-semibold text-xl text-center">Celulares e tablets</h3>
+                               <div class="flex flex-col items-center text-cinzaLetra text-sm">
+                                    <p class="text-center">Tablets Amazon Fire</p>    
+                                    <p class="text-center">Celulares e Tablets Android</p>    
+                                    <p class="text-center">iPhone e iPad</p>       
+                               </div>
+                           </div>
+                    </article>
+
+               </div>
+          </div>
+     
+           <div class="w-full flex flex-col items-center mt-28">
+                <h2 class="text-colorWhite font-bold text-xl tracking-wide text-center md:text-4xl">
+                    Perguntas frequentes
+                </h2>
+
+                <div class="w-full max-w-7xl flex flex-col items-center px-3 mt-10">
+                     
+                  <div class="w-full flex flex-col mb-6">
+                     <div id="1" class="btn cursor-pointer rounded-sm w-full py-5 px-4 flex justify-between text-colorWhite bg-backgroundCinza">
+                        <h2 class="text-xl">O que está incluído no Disney+?</h2>       
+                        <i class="ri-add-line"></i>
+                     </div>  
+
+                     <div id="1" class="lista hidden overflow-hidden transition-all ease-linear duration-500 px-4 py-4 w-full rounded-sm flex-col gap-1 bg-backgroundCinza">
+                        <span class="text-colorWhite text-lg">O Disney+ oferece:</span>
+                        <div class="flex flex-col gap-1 text-colorWhite py-3">
+                          
+                           <ul class="flex flex-col text-cinzaLetra gap-1 text-base ml-4">
+                               <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Experiência de entretenimento exclusiva.</li>
+                               <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>As melhores histórias da Disney, Pixar, Marvel, Star Wars e National Geographic, tudo em um só lugar.</li>
+                               <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Downloads ilimitados em até 10 dispositivos compatíveis.</li>
+                               <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Mais de 300 títulos em 4K UHD e HDR.</li>
+                               <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</li>
+                               <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>IMAX Enhanced: disponível para alguns títulos da Marvel em dispositivos compatíveis com o Disney+.</li>
+                           </ul>  
+                        </div>
+                     </div> 
+                  </div>
+
+                    
+                  <div class="w-full flex flex-col mb-6">
+                     <div id="2" class="btn cursor-pointer rounded-sm w-full py-5 px-4 flex justify-between text-colorWhite bg-backgroundCinza">
+                        <h2 class="text-xl">Ja tem o disney+ ou o Star+ e quer o Combo+?</h2>       
+                        <i class="ri-add-line"></i>
+                     </div>  
+
+                    <div id="2" class="lista overflow-hidden transition-all ease-in-out duration-500 hidden w-full px-4 py-4 rounded-sm flex-col gap-1 bg-backgroundCinza">
+                       <span class="text-colorWhite text-lg">Ao assinar o disney+:</span>
+                       <div class="flex flex-col gap-1 text-colorWhite py-3">
+                         
+                          <ul class="flex flex-col text-cinzaLetra gap-1 text-base ml-4">
+                              <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>O valor da sua assinatura existente será descontado do preço do Combo+.</li>
+                              <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Se você assina o plano mensal, o valor que você paga mensalmente será descontado do preço do Combo+.</li>
+                              <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Se você tem uma assinatura anual do Disney+ cobrada diretamente pelo Disney+, não é possível mudar para o Combo+ no momento. Entre em contato com o suporte do Disney+ para conhecer suas opções.</li>
+                              <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Você vai receber um e-mail com os valores detalhados assim que finalizar o pagamento.</li>
+                              <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>Lembre-se: você pode cancelar a assinatura quando quiser.</li>
+                              <li class="flex gap-2 items-center"><i class="ri-circle-fill text-xs"></i>No momento, apenas a assinatura mensal do Combo+ está disponível.</li>
+                          </ul>  
+                       </div>
+                    </div> 
+                  </div>   
+
+                  <div class="w-full flex flex-col mb-6">
+                     <div id="3" class="btn cursor-pointer rounded-sm w-full py-5 px-4 flex justify-between text-colorWhite bg-backgroundCinza">
+                        <h2 class="text-xl">quais formas de pagamento posso utilizar?</h2>       
+                        <i class="ri-add-line"></i>
+                     </div>  
+
+                    <div id="3" class="lista overflow-hidden hidden transition-all ease-in-out duration-500 w-full rounded-sm px-4 py-2 flex-col gap-1 bg-backgroundCinza">
+                       <span class="text-cinzaLetra text-base">
+                           Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e
+                           também empresas parceiras como Google Play Store, App Store da Apple; Mercado 
+                           Livre e provedores locais de TV, telefonia e internet.
+                        </span>               
+                    </div> 
+                 </div>
+
+                 <div class="w-full flex flex-col mb-6">
+                     <div id="4" class="btn cursor-pointer rounded-sm w-full py-5 px-4 flex justify-between text-colorWhite bg-backgroundCinza">
+                        <h2 class="text-xl">Como posso ver conteúdo com calssificação indicada até 16 e 18?</h2>       
+                        <i class="ri-add-line"></i>
+                     </div>  
+
+                    <div id="4" class="lista overflow-hidden hidden transition-all ease-in-out duration-500 w-full py-2 px-4 rounded-sm flex-col gap-1 bg-backgroundCinza">
+                       <span class="text-cinzaLetra text-base">
+                              Para poder acessar o catálogo completo que inclui conteúdo 
+                              com classificação indicativa até 16 e 18, todos os usuários
+                              do Disney+ na América Latina devem atualizar as configurações
+                              de controle parental do perfil. É possível restringir o conteúdo
+                              de cada perfil e também adicionar um PIN de bloqueio. Os usuários 
+                              que preferirem manter a configuração atual vão continuar aproveitando
+                              o Disney+ com a classificação indicativa até 14, podendo alterá-la a
+                              qualquer momento em "Editar Perfis".
+                        </span>
+                      
+                     </div> 
+                  </div>
+                  
+                </div>  
+           </div>
+
+           <div class="w-full flex flex-col items-center mt-12 gap-5">
+               <img class="w-24" src="./introAssets/logo disney plus.svg">
+              <div class="w-full max-w-7xl flex flex-col md:gap-5 py-4 px-2 items-center">
+                  <div class="w-full flex flex-col md:flex-row justify-center text-cinzaLetra
+                              text-sm md:text-base gap-2 md:gap-3 items-center">
+                      <a class="text-center flex items-center hover:text-colorWhite duration-200" href="#">
+                         <i class="ri-global-line"></i>
+                         Português
+                      </a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Termos e condições de uso</a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Política de privacidade</a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Proteção de dados no Brasil</a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Anúncios personalizados</a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Dispositivos compatíveis</a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Ajuda</a>
+                      <a class="text-center hover:text-colorWhite duration-200" href="#">Sobre a Disney</a>
+                  </div>
+
+                  <div class="w-full flex flex-col  items-center gap-2 text-cinzaLetra">
+                     <p class="block text-center text-xs md:text-sm">
+                        2023 Disney, Disney+ e The Walt Disney Company. 
+                        Todos os direitos reservados. Serviço de assinatura 
+                        paga. Conteúdo sujeito a disponibilidade.
+                     </p>
+
+                     <p class="block text-center text-xs md:text-sm">
+                        Disney+ é um serviço pago, baseado em assinatura 
+                        e sujeito a termos e condições. O serviço Disney+
+                         é comercializado por The Walt Disney Company (Brasil) Ltda.
+                         , World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 
+                         12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                     </p>
+
+                  </div>
+               </div>
+           </div>
+
+   </main> 
    
-
-   </main>
-    
-    
-
-
-
-
-
-
+  
 </body>
 </html>
